@@ -1,0 +1,45 @@
+body{
+    padding: 20px;
+}
+h1{
+    font-family: Helvetica;
+    text-shadow: -3px 5px 2px #999; /*горизонталь, вертикаль, тень размытие*/
+text-align: center;
+}
+p{
+    border: 1px solid #987;
+    font-size: 15px;
+    text-indent: 2cm;
+    font-family: "lobster", cursive;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    letter-spacing: -1px;
+    word-spacing: 60px;
+    line-height: 150%;
+    padding: 30px;
+    margin: 25px;
+    /*text-align: justify;*/
+    
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{text-decoration: underline;
+
+
+}
+h2::first-letter{
+    font-size: 40px;
+    font-weight: bold;
+    background: #000;
+    color: skyblue;
+    padding: 4px;
+}
+
+ol{
+    list-style-type: disc;/*upper-alfa, apper-roman*/
+    list-style-position: inside;
+    border: 1px solid #987;
+   /* list-style-image: url(../gerb/gerb1.jpg);*/
+}

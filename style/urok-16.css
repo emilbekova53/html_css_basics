@@ -1,0 +1,49 @@
+body{
+	padding: 20px;
+   background: rgba(122, 224, 112, 0.3);
+}
+div.test{
+    text-align: center;
+    width: 100%;
+    border: 2px solid blue;
+    padding: 5px 10px ;
+    float: right;
+    box-sizing: border-box;
+    min-height: max-content;
+    background: rgb(255, 151, 77);
+}
+div.test1{
+	width: 65%;
+	border: 2px solid red;
+	padding: 5px 10px;
+    float: left;
+	box-sizing: border-box;
+    min-height: max-content;
+    height: 159px;
+    margin-top: 16px;
+    
+}
+p.test2{
+    width: 35%;
+	border: 2px solid red;
+	padding: 5px 10px;
+	float: left;
+	box-sizing: border-box;
+    min-height: max-content;
+
+}
+p.test3{
+width: 33.3%;
+	border: 2px solid rgb(2, 41, 18);
+	padding: 5px 10px;
+	float: left;
+	box-sizing: border-box;
+    min-height: max-content;
+height: 250px;}
+    p.test4{
+        width: 100%;
+            border: 2px solid rgb(121, 5, 189);
+            padding: 5px 10px;
+            float: left;
+            box-sizing: border-box;
+            min-height: max-content;}

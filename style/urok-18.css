@@ -1,0 +1,23 @@
+body{
+    padding: 110px;
+    background-image: linear-gradient(124deg, #4242fd, white);
+}
+h1{
+    background-image: repeating-linear-gradient(160deg,rgb(8, 83, 105),rgb(180, 133, 241),rgb(199, 191, 248));
+}
+p.test1{
+    background-image: linear-gradient(rgb(218, 218, 69), transparent),
+                      linear-gradient(120deg, rgb(181, 216, 27), yellow, transparent),
+                      linear-gradient(200deg, rgb(240, 6, 201), red, transparent);
+}
+p.test2{
+    background-image: radial-gradient(circle at 25% 50%, rgb(248, 4, 216), blue)
+
+}
+P.test3{
+    background-image: repeating-radial-gradient(rgb(238, 10, 29), rgb(17, 194, 238), rgb(104, 233, 104));
+
+}
+p.test4{
+    background-image: repeating-linear-gradient(rgb(0, 195, 255),yellow,orange, red);
+}

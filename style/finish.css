@@ -1,0 +1,61 @@
+body{
+    width: 900px;
+    margin: 0 auto;
+background-image: url(../style/pion.png) ;
+background-repeat: no-repeat;
+background-size: 100em, 60em;
+
+}
+
+h1{
+   font-size: 2em;
+   font-family: Verdana,Tahoma, sans-serif; 
+   border-bottom: dotted 2px teal;
+   padding-bottom: 5px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.subform{
+    font-size: 1.3em;
+    color: rgb(9, 94, 85);
+}
+.subform label{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.subform input[type="submit"]{
+    margin-left: 216px;
+    padding: 12px 24px;
+    font-size: .8em;
+    cursor: pointer;
+    background:rgb(5, 250, 26);
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgb(82, 92, 82); 
+
+
+}
+.subform input[type="submit"]:hover{
+  background: rgb(66, 126, 66);
+}
+.subform input[type="radio"]{
+    margin-left: 15px;
+}
+.subform input[type="text"], .subform input[type="email"], .subform textarea{
+	border-radius:4px;
+	border: none;
+	background:#fff;
+	color: rgb(9, 94, 85);
+	box-shadow: 0 0 3px #fff;
+	padding: 7px;
+	width: 550px;
+}
+.subform input[type="text"]:focus, .subform input[type="email"]:focus, .subform textarea:focus{
+	background: rgb(5, 250, 26);
+	color:#000;
+}

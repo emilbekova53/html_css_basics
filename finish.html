@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>finish</title>
+    <link rel="stylesheet" href="style/finish.css">
+
+</head>
+<body>
+    <article>
+        <h1>Работа с веб формами</h1>
+        <form method="POST" action="/" class="subform">
+            <p>
+                <Label for="name">Как вас зовут</Label>
+            <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <Label for="email">введите вашу почту</Label>
+            <input type="email" name="email" id="email">
+            <p> <strong>Eсть опыт изучения:</strong>
+                
+                    <Label>
+                        <input type="radio" name="skill" value="1">
+                JavaScript
+            </Label>
+                    <Label>
+                        <input type="radio" name="skill" value="2">
+                    HTML & CSS
+                </Label>
+                    <Label>
+                        <input type="radio" name="skill" value="1">
+                PHP</Label>
+                
+                </p>
+                <p>
+                    <label for="goal"> Какую цель преследую</label>
+                    <select name="goal" id="goal">
+                        <option> хочу сменить профессию</option>
+                        <option> Повысить скилл</option>
+                        <option> Как хобби</option>
+                        <option> Хочу быть фрилансером</option>
+                    </select>
+                    
+                </p>
+            <p> <label for="comments">Ваше пожелание</label>
+            <textarea name="comments" color="40" rows="5" id="comments">
+
+            </textarea>
+            </p>
+            <p>
+                <input type="submit"value="Отправить">
+            </p>
+        </form>
+    </article>
+
+    
+</body>
+</html>

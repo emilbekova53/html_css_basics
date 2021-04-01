@@ -1,0 +1,9 @@
+img[title="image"]{
+    width: 200px;
+}
+a[href="https://yandex.ua"]{
+    color: teal;
+}
+a[href="https://nnm.com"]{
+    color: thistle;
+}

@@ -1,0 +1,13 @@
+a:hover{ color: red;}
+a:active{ font-size: 25px; }
+a:link{  color:yellow;}
+a:visited{ color:teal}
+p:first-letter{ font-size: 30px; color: tomato;
+
+}
+p::first-line{ font-weight: bold;}
+input:focus{ background: tomato; border-color:turquoise;  }
+input::focus{ background: tomato; border-color:turquoise;  }
+.test:before{ content: "Ураа!!!";}
+.test:after{ content: "!!!";}
+p::selection{ color: white;background: violet;}

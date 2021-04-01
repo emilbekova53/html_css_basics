@@ -1,0 +1,92 @@
+body{
+    padding: 60px;
+}
+a.button{
+    border: solid 1px rgb(22, 21, 21);
+    background-color: rgb(60, 18, 248);
+    color: #fff;
+    padding: 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+a.button:hover{
+    border: solid 1px rgb(123, 9, 123);
+    background-color: rgb(91, 190, 190);
+    color: #000;
+    padding: 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+span.button2{
+    position: relative;
+    background-position: left top;
+    width: 130px ;
+    height: 60px;
+    background-image: url(../gerb/google3.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display: inline-block;
+}
+span.button2:hover{
+    background-position: left top -60%;
+    cursor: pointer;
+    background-origin: content-box;
+
+}
+ul.nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+ul.nav a{
+    display: block;
+    width: 150px;
+    line-height: 1.5em;
+    padding: 3px;
+    border: solid 1px rgb(22, 21, 21);
+    background-color: rgb(16, 236, 90);
+    color: rgb(55, 1, 250);
+    padding: 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 2px;
+}
+ul.nav a:hover{
+    border: solid 1px rgb(123, 9, 123);
+    background-color: rgb(91, 190, 190);
+    color: #000;
+    padding: 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+ul.bav{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+ul.bav li{
+    display: inline;
+}
+ul.bav a{
+    display: inline-block;
+    border: 1px dashed #000;
+    padding: 5px 10px;
+    background: #1a1a1a;
+    text-decoration: none;
+    color: #f33;
+    border-radius: 4px;
+}
+ul.bav a:hover{
+    border: solid 1px rgb(123, 9, 123);
+    background-color: rgb(91, 190, 190);
+    color: #000;
+    padding: 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
